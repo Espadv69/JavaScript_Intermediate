@@ -1,8 +1,8 @@
 const blankWindowUrl = 'about:blank'
-let newWindow = null
 
+let newWindow
 function openBlankWindow() {
-  newWindow = window.open(blankWindowUrl)
+  newWindow = window.open(blankWindowUrl, '_blank')
 }
 
 function closeBlankWindow() {
@@ -11,5 +11,14 @@ function closeBlankWindow() {
   }
 }
 
+let openGoogle = window.open('https://www.google.com', '_blank') // open a new window when the script runs
 
-// open a new window and close the current window when the button is clicked
+if (openGoogle) {
+  console.log(openGoogle.closed) // false
+}
+
+openGoogle.close() // close the window immediately
+
+setTimeout(() => {
+  console.log(openGoogle.closed) // true
+}, 1000) // 1 second delay to check the window status
