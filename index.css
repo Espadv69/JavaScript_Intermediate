@@ -19,6 +19,8 @@ body {
 }
 
 .youtube, .google {
+  cursor: pointer;
+  
   padding: 0.2rem 1rem;
   border: 1px solid whitesmoke;
   border-radius: 0.2rem;
