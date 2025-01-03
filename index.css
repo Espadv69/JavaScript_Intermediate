@@ -18,7 +18,7 @@ body {
   gap: 1rem;
 }
 
-.youtube, .google {
+.youtube, .google, .facebook {
   cursor: pointer;
   
   padding: 0.2rem 1rem;
