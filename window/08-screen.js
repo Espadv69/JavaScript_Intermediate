@@ -5,7 +5,7 @@ let screenProps = window.screen
 console.log(screenProps)
 
 function showScreenAvailHeight() {
-    console.log(window.screen.availHeight)
+  console.log(window.screen.availHeight)
 }
 
 /**
