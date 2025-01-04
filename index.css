@@ -10,7 +10,13 @@ body {
   background: #121212;
 }
 
-.open, .close, .stop, .alert, .print, .prompt {
+.open,
+.close,
+.stop,
+.alert,
+.print,
+.prompt,
+.confirm {
   margin-top: 1rem;
 
   display: flex;
@@ -18,9 +24,17 @@ body {
   gap: 1rem;
 }
 
-.youtube, .google, .facebook, .tab, .stopbtn, .alertbtn, .printbtn, .promptbtn {
+.youtube,
+.google,
+.facebook,
+.tab,
+.stopbtn,
+.alertbtn,
+.printbtn,
+.promptbtn,
+.confirmbtn {
   cursor: pointer;
-  
+
   padding: 0.2rem 1rem;
   border: 1px solid whitesmoke;
   border-radius: 0.2rem;
