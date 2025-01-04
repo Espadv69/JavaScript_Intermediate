@@ -4,7 +4,7 @@ let screenProps = window.screen
 // Check the console to see the output
 console.log(screenProps)
 
-function showScreenProperties() {
+function showScreenAvailHeight() {
     console.log(window.screen.availHeight)
 }
 
