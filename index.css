@@ -18,7 +18,8 @@ body {
 .print,
 .prompt,
 .confirm,
-.screen {
+.screen,
+.scroll {
   margin-top: 1rem;
 
   display: flex;
@@ -37,7 +38,8 @@ body {
 .printbtn,
 .promptbtn,
 .confirmbtn,
-.screenbtn {
+.screenbtn,
+.scrollbtn {
   cursor: pointer;
 
   padding: 0.2rem 1rem;
