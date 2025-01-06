@@ -11,4 +11,4 @@ function scrollToBottom() {
  * The second parameter is an object with the property behavior. (optional)
  * The top property is the vertical position to scroll to.
  * The left property is the horizontal position to scroll to.
- */
+ **/
