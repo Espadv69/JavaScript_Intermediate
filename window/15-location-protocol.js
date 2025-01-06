@@ -8,4 +8,4 @@ console.log(protocol); // In my case, file:
  * If the URL is https://www.example.com, the protocol is https:
  * If the URL is file:///Users/username/Documents/index.html, the protocol is file:
  * If the URL is ftp://ftp.example.com, the protocol is ftp:
- */
+ **/
