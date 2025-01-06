@@ -5,4 +5,4 @@ document.write(href); // This returns the URL of the current page if this code h
 
 // OR
 
-// Path: www.example.com if this code is on a website
+// Path: https://www.example.com if this code is on a website
