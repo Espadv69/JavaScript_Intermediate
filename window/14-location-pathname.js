@@ -9,4 +9,4 @@ console.log(pathname); // In my case, shows: /C:/Users/username/Desktop/Projects
  * If the URL does not contain a path, this property will contain a single '/' character.
  * 
  * The value of pathname is the entire path component of the URL after the domain name, including any initial slash ('/').
- */
+ **/
