@@ -19,7 +19,8 @@ body {
 .prompt,
 .confirm,
 .screen,
-.scroll {
+.scroll,
+.location {
   margin-top: 1rem;
 
   display: flex;
@@ -39,7 +40,8 @@ body {
 .promptbtn,
 .confirmbtn,
 .screenbtn,
-.scrollbtn {
+.scrollbtn,
+.locationbtn {
   cursor: pointer;
 
   padding: 0.2rem 1rem;
