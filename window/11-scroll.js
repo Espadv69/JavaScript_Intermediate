@@ -1,7 +1,7 @@
 function scrollToBottom() {
   window.scroll({
-    top: 400, // how far to scroll vertically
-    behavior: 'smooth' | 'auto' // smooth is smooth scrolling, auto is instant scrolling
+    top: window.screen.availHeight, // how far to scroll vertically
+    behavior: 'smooth' || 'auto' // smooth is smooth scrolling, auto is instant scrolling
   })
 }
 
